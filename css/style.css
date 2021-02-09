@@ -497,4 +497,41 @@ nav a{
     position: relative;
     padding: 0px 20px;
 }
+.footer_menu_title{
+    color: white;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.footer_menu_link{
+    color: white;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+.footer_menu_link:hover, .footer_menu_link:focus{
+    color: rgb(248, 170, 170);
+}
+.footer_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_logo{
+    width: 40%
+}
+.footer_nav{
+    width: 60%;
+
+}
+.footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 /* footer end */
